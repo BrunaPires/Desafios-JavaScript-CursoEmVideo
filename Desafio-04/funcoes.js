@@ -1,10 +1,10 @@
 function clicou() {
 
-  var n1 = (window.prompt('Que produto você está comprando?'))
+  let n1 = (window.prompt('Que produto você está comprando?'))
 
-  var n2 = Number(window.prompt('Quanto custa ' + n1 + ' que você está comprando?'))
+  let n2 = Number(window.prompt('Quanto custa ' + n1 + ' que você está comprando?'))
 
-  var n3 = Number(window.prompt('Qual foi o valor que você deu para pagar ' + n1 + '?'))
+  let n3 = Number(window.prompt('Qual foi o valor que você deu para pagar ' + n1 + '?'))
 
   calculo = n3 - n2
 
