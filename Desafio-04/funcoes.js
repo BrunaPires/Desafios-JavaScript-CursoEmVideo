@@ -1,18 +1,14 @@
-
-
 function clicou() {
 
-    let v = ('')
-    let pg = ('')
-    let t = (pg) - (v)
+  var n1 = (window.prompt('Que produto você está comprando?'))
 
-    let p = (window.prompt('Que produto você está comprando?'))
-  
-    let v = (window.prompt('Quanto custa ${p} que você está comprando?'))
+  var n2 = Number(window.prompt('Quanto custa ' + n1 + ' que você está comprando?'))
 
-    let pg = (window.prompt('Qual foi o ${v} que você deu para pagar ${p}?'))
+  var n3 = Number(window.prompt('Qual foi o valor que você deu para pagar ' + n1 + '?'))
 
+  calculo = n3 - n2
 
-
-    let = (window.alert(`Você comprou ${p} que custou ${v}. Deu valor ${pg} em dinheiro e vai receber ${t} de troco. Volte Sempre!'))
+  let = Number(window.alert('Você comprou ' + n1 + ' que custou ' + n2 + 
+  ' Deu ' + n3 + ' em dinheiro e vai receber ' + calculo + ' de troco ' +
+  'Volte sempre'))
 }
